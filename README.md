@@ -4,7 +4,7 @@
 
 ## 一句话使用（复制到你的 AI 对话框）
 ```
-请读取 https://cdn.jsdelivr.net/gh/aigchong-bot/fajie-xiangying@main/SKILL.md 并严格按其中流程加载这个技能，然后开始。
+请读取 https://github.com/aigchong-bot/fajie-xiangying/raw/main/SKILL.md 并严格按其中流程加载这个技能，然后开始。
 ```
 
 > 如果你的智能体打不开 jsDelivr，可换用备用地址：`https://github.com/aigchong-bot/fajie-xiangying/raw/main/SKILL.md`，或直接把 SKILL.md 全文粘贴给它。
