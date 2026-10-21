@@ -1,5 +1,5 @@
 ---
-name: name-taiji-wuxing-reading
+name: fajie-xiangying
 description: 用户想“用名字看看性格/婚姻/财运”“定太极点”“这个字男女怎么断”时触发。先发编号菜单（性格、长相、婚姻、家人与人际、财运、学业、流年大运、全部）让用户选，再一次性问齐姓名、性别和是否排辈，然后只断选中的项目，用大白话回答。不做三才五格、八字、小六壬；不看健康疾病、风水和用药。
 ---
 
@@ -26,12 +26,12 @@ description: 用户想“用名字看看性格/婚姻/财运”“定太极点�
 例外：如果用户在加载这句话里已经给了姓名和问题，跳过菜单，直接走“快捷路径”。
 
 ## 参考文件（断语前必须读取；能联网的助手按下面的 raw 链接获取）
-- 太极点规则：https://raw.githubusercontent.com/aigchong-bot/name-taiji-wuxing-reading/main/references/taiji-rules.md
-- 偏旁五行表：https://raw.githubusercontent.com/aigchong-bot/name-taiji-wuxing-reading/main/references/wuxing-mapping.md
-- 生克与六亲、婚姻、财运、学业：https://raw.githubusercontent.com/aigchong-bot/name-taiji-wuxing-reading/main/references/wuxing-relations.md
-- 流年大运：https://raw.githubusercontent.com/aigchong-bot/name-taiji-wuxing-reading/main/references/liunian-dayun.md
-- 案例：https://raw.githubusercontent.com/aigchong-bot/name-taiji-wuxing-reading/main/references/cases.md
-- 输出模板：https://raw.githubusercontent.com/aigchong-bot/name-taiji-wuxing-reading/main/assets/output-template.md
+- 太极点规则：https://raw.githubusercontent.com/aigchong-bot/fajie-xiangying/main/references/taiji-rules.md
+- 偏旁五行表：https://raw.githubusercontent.com/aigchong-bot/fajie-xiangying/main/references/wuxing-mapping.md
+- 生克与六亲、婚姻、财运、学业：https://raw.githubusercontent.com/aigchong-bot/fajie-xiangying/main/references/wuxing-relations.md
+- 流年大运：https://raw.githubusercontent.com/aigchong-bot/fajie-xiangying/main/references/liunian-dayun.md
+- 案例：https://raw.githubusercontent.com/aigchong-bot/fajie-xiangying/main/references/cases.md
+- 输出模板：https://raw.githubusercontent.com/aigchong-bot/fajie-xiangying/main/assets/output-template.md
 本文出现的 `references/…`、`assets/…` 都指以上链接（本地安装时即同目录文件）。读不到参考文件时，按本文的“核心速查”作答，并告诉用户结论较粗略。
 
 ## 核心速查（参考文件取不到时兜底）

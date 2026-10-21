@@ -1,10 +1,10 @@
-# 姓名太极点五行解读（name-taiji-wuxing-reading）
+# 法界相应 · 姓名太极点五行解读（fajie-xiangying）
 
 一个可以装进任意 AI 助手（Claude、ChatGPT、Cursor、Grok 等）的 **Agent Skill**。它按传统姓名学的“太极点 + 偏旁五行 + 生克六亲”方法，从名字里看性格、长相、婚姻、家人与人际、财运、学业和流年大运。
 
 ## 一句话使用（复制到你的 AI 对话框）
 ```
-请读取 https://raw.githubusercontent.com/aigchong-bot/name-taiji-wuxing-reading/main/SKILL.md 并严格按其中流程加载这个技能，然后开始。
+请读取 https://raw.githubusercontent.com/aigchong-bot/fajie-xiangying/main/SKILL.md 并严格按其中流程加载这个技能，然后开始。
 ```
 AI 读完后会直接发给你一个编号菜单。回复数字，再按提示给出姓名和性别就行。
 （需要 AI 能联网读取网页。如果它读不了，就把 `SKILL.md` 的全文粘贴给它。）
@@ -12,8 +12,8 @@ AI 读完后会直接发给你一个编号菜单。回复数字，再按提示�
 ## 作为 Agent Skill 安装（Claude Code 等）
 ```bash
 # 个人技能目录
-git clone https://github.com/aigchong-bot/name-taiji-wuxing-reading ~/.claude/skills/name-taiji-wuxing-reading
-# 或者放进项目目录：.claude/skills/name-taiji-wuxing-reading
+git clone https://github.com/aigchong-bot/fajie-xiangying ~/.claude/skills/fajie-xiangying
+# 或者放进项目目录：.claude/skills/fajie-xiangying
 ```
 其他支持 Agent Skills 规范的工具，把整个文件夹放进它们的 skills 目录即可。
 
