@@ -4,8 +4,11 @@
 
 ## 一句话使用（复制到你的 AI 对话框）
 ```
-请读取 https://raw.githubusercontent.com/aigchong-bot/fajie-xiangying/main/SKILL.md 并严格按其中流程加载这个技能，然后开始。
+请读取 https://cdn.jsdelivr.net/gh/aigchong-bot/fajie-xiangying@main/SKILL.md 并严格按其中流程加载这个技能，然后开始。
 ```
+
+> 如果你的智能体打不开 jsDelivr，可换用备用地址：`https://github.com/aigchong-bot/fajie-xiangying/raw/main/SKILL.md`，或直接把 SKILL.md 全文粘贴给它。
+
 AI 读完后会直接发给你一个编号菜单。回复数字，再按提示给出姓名和性别就行。
 （需要 AI 能联网读取网页。如果它读不了，就把 `SKILL.md` 的全文粘贴给它。）
 
