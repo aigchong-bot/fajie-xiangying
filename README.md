@@ -7,7 +7,13 @@
 请读取 https://github.com/aigchong-bot/fajie-xiangying/raw/main/SKILL.md 并严格按其中流程加载这个技能，然后开始。
 ```
 
-> 如果你的智能体打不开 jsDelivr，可换用备用地址：`https://github.com/aigchong-bot/fajie-xiangying/raw/main/SKILL.md`，或直接把 SKILL.md 全文粘贴给它。
+> 国内智能体推荐用 Gitee 地址：
+>
+> ```
+> 请读取 https://gitee.com/aigchong-bot/fajie-xiangying/raw/main/SKILL.md 并严格按其中流程加载这个技能，然后开始。
+> ```
+>
+> 两个地址都打不开时，直接把 SKILL.md 全文粘贴给它。
 
 AI 读完后会直接发给你一个编号菜单。回复数字，再按提示给出姓名和性别就行。
 或者：直接把 `SKILL.md` 的全文粘贴给 AI。SKILL.md 是单文件，所有规则都在里面，不含任何外链，AI 加载后不需要再去读别的网页。
