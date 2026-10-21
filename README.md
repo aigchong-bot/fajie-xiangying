@@ -10,7 +10,7 @@
 > 如果你的智能体打不开 jsDelivr，可换用备用地址：`https://github.com/aigchong-bot/fajie-xiangying/raw/main/SKILL.md`，或直接把 SKILL.md 全文粘贴给它。
 
 AI 读完后会直接发给你一个编号菜单。回复数字，再按提示给出姓名和性别就行。
-（需要 AI 能联网读取网页。如果它读不了，就把 `SKILL.md` 的全文粘贴给它。）
+或者：直接把 `SKILL.md` 的全文粘贴给 AI。SKILL.md 是单文件，所有规则都在里面，不含任何外链，AI 加载后不需要再去读别的网页。
 
 ## 作为 Agent Skill 安装（Claude Code 等）
 ```bash
@@ -32,16 +32,8 @@ git clone https://github.com/aigchong-bot/fajie-xiangying ~/.claude/skills/fajie
 
 ## 文件结构
 ```
-SKILL.md                    入口：加载后立即发菜单，含流程和核心速查
-assets/menu.md              菜单原文
-assets/output-template.md   面向用户的输出模板
-references/taiji-rules.md   取字、定太极点规则
-references/wuxing-mapping.md 偏旁/笔画 → 五行对照表
-references/wuxing-relations.md 生克、六亲、婚姻、财运、学业等断法
-references/liunian-dayun.md 流年大运
-references/cases.md         匿名案例
-references/external-research.md 公开资料对照（外部补充）
-evals/                      测试提示词与断言
+SKILL.md   单文件技能：菜单、流程、全部规则表（附录A–E）
+evals/     测试提示词与断言
 ```
 
 ## 免责声明
